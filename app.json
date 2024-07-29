@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "CapstoneApp",
+    "slug": "CapstoneApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fonts/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "your-origin",
+          "headOrigin": "your-head-origin",
+          "root": "your-root",
+          "platformRoutes": true,
+          "asyncRoutes": "development"
+        }
+      ]
+    ]
+  }
+}
